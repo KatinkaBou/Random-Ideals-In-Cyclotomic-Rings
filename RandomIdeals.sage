@@ -27,7 +27,7 @@ import sys
 #------------#
 
 if len(sys.argv) != 3:
-    print("Usage: {:s} <nf_tag>, nf_tag is :\n\tz<m> for Cyclotomic of conductor m\n\tn<p> for NTRU Prime fields of degree p\n".format(sys.argv[0]));
+    print("Usage: {:s} <arg1> <arg2>, where : \n\t <arg1> is an integer defining the <arg1>-th cyclotomic number field \n\t <arg2> is an integer specifying how many ideals are looked at.\n".format(sys.argv[0]));
     sys.exit(2);
 
 m = int(sys.argv[1]);
