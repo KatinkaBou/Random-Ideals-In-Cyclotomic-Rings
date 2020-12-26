@@ -1,4 +1,4 @@
-﻿This repository contains a Sage code to compute the probability that k many random ideals in a cyclotomic number ring are relatively prime.
+﻿This repository contains a Sage code to compute the probability that k many random ideals in a cyclotomic number ring are pairwise relatively prime.
 The computations follow the approach of Sittinger and DeMoss [1].
 
 In order to use the code within the virtual sage machine, simply download the file RandomIdeals.sage.
